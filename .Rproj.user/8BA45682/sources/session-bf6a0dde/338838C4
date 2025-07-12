@@ -3,7 +3,7 @@
     "path": "C:/Users/remok/Projektit/Testikirja/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "2576636809",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1752255182481.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "2,21",
-        "scrollLine": "0"
+        "cursorPosition": "28,0",
+        "scrollLine": "22"
     },
     "folds": "",
-    "lastKnownWriteTime": 1752255315,
+    "lastKnownWriteTime": 1752338846,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1752255315751,
+    "last_content_update": 1752338846,
     "read_only": false,
     "read_only_alternatives": []
 }

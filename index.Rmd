@@ -1,5 +1,5 @@
 --- 
-title: "A Minimal Book Example"
+title: "Lauseiden louhinta (Sentence mining)"
 author: "Remo Kapanen"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -15,46 +15,25 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# About
+# Perustietoa {-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+Tämä on nopea opas *sanojen/lauseiden louhinnan* aloittamiseen. 
 
-## Usage 
+Jos opiskelet mitä tahansa kieltä, on kyseiseen kieleen _immersoituminen_ yksi tehokkaimmista opiskelutekniikoista. Immersoitumisella tarkoitan natiivimateriaalien (esim. kirjallisuus, uutiset, youtube, tv-sarjat) kuluttaminen ja niiden kautta kyseisen kielen absorboimista. Suurin osa nuoremmista sukupolvista on todennäköisesti oppinut englannin kielen tällä tavalla. 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+Sanojen/Lauseiden louhinta tarkoittaa sitä, että _kerää itselleen aikaisemmin tuntemattomia sanoja immersoitumismateriaalista,_ kuten videoista tai kirjoista, ja siirtää nämä sanat johonkin muistikorttisovellukseen (tässä oppaassa *Ankiin*). Muistikortteja ja varsinkin Ankin aikavälitoistoa (SRS) hyödyntämällä voi huomattavasti tehostaa sanojen muistijälkeä. 
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+## Mitä tulet oppimaan {-}
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+- Yomitan: Miten asentaa ja käyttää
 
-## Render book
+- ASBplayer: Miten asentaa ja käyttää
 
-You can render the HTML version of this example book without changing anything:
+- Workflow lauseiden louhimiseen niin teksteistä kuin videoista 
 
-1. Find the **Build** pane in the RStudio IDE, and
+- Miten louhia videopeleistä (erityisesti visuaalisista novelleista)
 
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
+- Miten louhia älypuhelimella 
 
-Or build the book from the R console:
-
-```{r, eval=FALSE}
-bookdown::render_book()
-```
-
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
-
-## Preview book
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
-
-```{r eval=FALSE}
-bookdown::serve_book()
-```
-
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+### Edellytykset {-}
+Toimiva tietokone (louhinta myös mahdollista mobiililaitteella, kts. )

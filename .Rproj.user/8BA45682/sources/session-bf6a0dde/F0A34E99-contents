@@ -1,0 +1,39 @@
+# Anki 
+
+Jos sinulla ei ole Ankia jo valmiiksi tai et osaa käyttää sitä, kts. toinen oppaani: ____
+
+## Ankiconnect 
+
+Lataa Ankiconnect add-on. 
+
+- Ankissa Tools -> Add-ons -> Get add-ons -> liitä kenttään tämä koodi: 2055492159 
+
+- Sammuta Anki ja laita se uudelleen päälle
+
+## Lapis-korttipohja
+
+Lataa Lapis-korttipohja täältä: 
+- https://github.com/donkuri/lapis/releases
+
+Importtaa korttipohja Ankiin
+- Import file -> valitse ladattu tiedosto
+
+## Pakka 
+
+Tee pakka, johon haluat louhittujen korttien menevän.
+
+- Ankissa Create Deck -> anna pakalle sopiva nimi (esim. Mining)
+
+## Millaisia kortit ovat? 
+
+Lapis-korttipohjalla voi tehdä muutamia erilaisia korttityyppejä, mutta tämän oppaan default-asetuksilla tulet tekemään ns. Click card-tyyppisiä kortteja. 
+
+Käytännössä muistikortin (flashcard) etupuolella on louhittu tavoitekielesi sana. Kääntöpuolella on se lause, josta louhimasi sana on peräisin sekä sanan käännös/käännöksiä sanakirjasi mukaisesti.
+
+Kääntöpuolella on usein myös (mutta ei aina) sanakirjan mukana tullut audioklippi, jossa sana äännetään oikein. Jos louhit kortin videosta, mukana voi myös olla screenshot ja audioklippi kyseisestä videosta. 
+
+Click card-tarkoittaa sitä, että etupuolella näkyy oletuksena vain testattava sana, eikä sille ole tarjolla kontekstia. Jos sana kuitenkin on sellainen, että et muista sitä heti tai sen oikein tunnistaminen vaatii kontekstia (esim. sana, joka voi tarkoittaa useita eri asioita), voi sanaa klikata, jolloin paljastuu se lause, josta kyseinen sana on louhittu.
+
+- Korttityypin voi vaihtaa halutessaan. Tämä opas ei käsittele muiden korttityyppien käyttöä. 
+
+![Click card example](_main_files/Click_card.gif)

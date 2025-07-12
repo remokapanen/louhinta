@@ -1,0 +1,14 @@
+# ASBPlayer
+
+ASBplayer on selainlisäosa, joka mahdollistaa sen, että pystyt klippaamaan audion ja kuvan katsomistasi videoista Yomitanilla louhimiisi Ankikortteihin. 
+
+- Lataa asbplayer Chromelle: https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab
+- Lataa asbplayer Firefoxille: https://addons.mozilla.org/en-US/firefox/addon/asbplayer-learn-with-subs/
+
+## Asetukset 
+
+Lataa asetukset täältä: <a href="_main_files/asbplayersettings.json" download="asbplayersettings.json">Download JSON</a>
+
+- Aseta Deck-kohtaan tietysti oman pakkasi nimi
+
+- Muista yhdistää Ankiconnect (Anki pitää olla päällä)
