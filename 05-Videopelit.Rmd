@@ -1,30 +1,69 @@
-# Blocks
+# Videopelit (erityisesti visuaaliset novellit)
 
-## Equations
+Videopelit ovat yksi parhaimmista mediamuodoista, jota voi käyttää kielten opiskeluun. Jos löydät pausetettavissa olevan pelin, johon saa tekstitykset päälle, pystyt käytännössä louhimaan siitä samalla tavalla sanoja/lauseita kuin muistakin videomuodoista.
 
-Here is an equation.
-
-\begin{equation} 
-  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-  (\#eq:binom)
-\end{equation} 
-
-You may refer to using `\@ref(eq:binom)`, like see Equation \@ref(eq:binom).
+Erityisesti japanin opiskelussa ns.  visual novel -tyyppiset videopelit ovat äärimmäisen tehokas immersiomateriaali, sillä ne nimensä mukaan ovat käytännössä kuvitettuja kirjoja, jotka hyvin usein vielä ovat ääninäyteltyjä. Visual novelleja on myös tuhansittain tarjolla, joten ne eivät tule loppumaan nopeasti kesken. Myös korealaisia ja kiinalaisia visual novelleja on paljon, jos niiden opiskelu kiinnostaa. Muiden kielien opiskelu saaattaa videopelien kautta olla aika vaikeaa, sillä useimmiten ainoat ääniraidat tarjolla ovat pelistä riippuen vain englanniksi.
 
 
-## Theorems and proofs
+Ongelmana on kuitenkin se, että videopelien teksti ei ole suoraan tutkittavissa Yomitanilla (toimii vain browserissa) eikä asbplayer tunnista videopelejä videotiedostoina. Jos haluaakin louhia videopeleistä, tulee lataa taas muutama työkalu. 
 
-Labeled theorems can be referenced in text using `\@ref(thm:tri)`, for example, check out this smart theorem \@ref(thm:tri).
+## Työkalujen lataaminen
 
-::: {.theorem #tri}
-For a right triangle, if $c$ denotes the *length* of the hypotenuse
-and $a$ and $b$ denote the lengths of the **other** two sides, we have
-$$a^2 + b^2 = c^2$$
-:::
+Ensimmäinen vaihe on hankkia texthooker, jonka avulla voidaan repiä näytöllä näkyvä teksti browseriin Yomitanin nähtäväksi. 
 
-Read more here <https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>.
+- Näitä on monia, mutta tässä oppaassa käsitellään Textractorin käyttö; lataa Textractor täältä:
 
-## Callout blocks
+- Asenna Textractor; x86 toiminee suurimman osan kanssa, jos x86 ei toimi pelisi kanssa, kokeile x64-versiota 
+
+- Asenna exSTATic ja TextractorSender: https://github.com/KamWithK/exSTATic; samalla sivulla myös opetusvideo näiden asentamisesta 
+
+- Asenna ShareX, jos haluat pelistä revityn audion ja kuvan kortteihisi: getsharex.com 
+
+## Textractorin setup 
+
+Extensions-kohdasta poista kaikki, paitsi Remove repeated characters, Copy to Clipboard ja Remove repeated phrases. Lisää myös Textractorsender (joko x86 tai x64 riippuen kumpaa textractoria käytät; yleensä x86 toimii paremmin) exSTATic-kohdan ohjeiden mukaan.
+
+- Jos Extensions-kohta on tyhjä, lisää sinne ym. tarvittavat extensionit
+
+## ShareX:n setup 
+
+Lataa seuraavat asetukset ja asenna ne (Application settings -> Settings -> Import) 
+
+- https://mega.nz/file/UnUjUDzC#zlF_iuIdELDq4-rk4o20EYa4Be3qdc3y5Caay9Eumbg
+
+Seuraavaksi säädä asetuksista reitti Ankin collection.media -folderiin tiedostojesi mukaiseksi: 
+
+- Jos et tiedä reittiä omaan medialokeroosi, löydät sen kirjoittamalla %appdata% Windowsin hakemistoon ja etsimässä Anki2-folderista käyttäjäsi ja sen alta collection.media -> kopioi reitti tänne ja liitä se kaikkien neljän shortcut-optionin alle ShareX:ssä. 
+
+- Seuraavaksi mene Audio-shortcutin kohtaan, mene sen asetuksiin ja mene kohtaan Screen Recorder -> Screen recording options -> Install recorder devices 
+
+## Workflow 
+
+0. Avaa Anki 
+
+1. Avaa Textractor (x86 toimii useimmiten) 
+
+2. Avaa ShareX
+
+3. Avaa exSTATic:n pääsivu: https://kamwithk.github.io/exSTATic/tracker.html
+
+4. Avaa pelisi (toimii parhaiten visual novelleiden kanssa) 
+
+5. Kiinnitä Textractor peliin: Attach to game -> valitse avattu peli (voit myös tallentaa hookin, jotta tulevaisuudessa hookaus on automaattinen kyseisen pelin kanssa)
+
+6. Plärää muutama linja pelin tekstejä läpi ja etsi ylävalikosta se vaihtoehto, jossa löytyy juuri pelissä näkyneet tekstit (jos japania opiskellessa näkyy pelkkejä bokseja, right-clickaa bokseja ja vaihda niiden fontti Meiryo-fontiksi) 
+
+7. Tavatessassi tuntemattoman sanan, mene exSTATic:n pääsivulle, jonne Textratorin repimää tekstiä syötetään ja louhi sana Yomitanilla
+
+8. Jos haluat ottaa kyseisestä kohdasta peliä kuvan korttiin, niin paina Shift+Alt+C, jolloin ShareX avaa snipping tool -tyyppisen kuvankaappaustyökalun -> rajaa haluamasi kuva tällä -> päivittää automaattisesti juuri tehdyn Anki-kortin 
+
+9. Jos haluat (ja se on mahdollista), niin paina Shift+Alt+A, jolloin ShareX alkaa tallentamaan ääntä Anki-korttiin. Soita juuri puhuttu repliikki uudestaan ja lopeta audion tallentaminen. 
+
+10. Korttisi on valmis
 
 
-The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html
+Sanojen louhinta näillä työkaluilla on todella helppoa. Yleisiä ongelmakohtia kuitenkin ovat:
+
+- Huonot hookit Textractorin kautta, jolloin kerätyt lauseet ovat virheellisiä. 
+
+- Pelit, joissa ei pysty palata taaksepäin, jolloin audiota ei saa soimaan uudestaan (ei pysty tallentamaan audioklippiä ankikorttiin); tällöin kortissa on vain Yomitan-sanakirjasi natiiviaudio + klippaamasi kuvankaappaus pelistä

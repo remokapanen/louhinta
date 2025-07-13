@@ -1,3 +1,17 @@
-`r if (knitr::is_html_output()) '
-# References {-}
-'`
+# Älypuhelin (Android) 
+
+Louhinta on myös mahdollista Android-pohjaisilla mobiililaitteilla (varmaan löytyy metodi myös iOS:lle, tämä opas ei käsitä iPhoneilla louhintaa) 
+
+## Yomitan Android 
+
+Yomitan on "word hover" -sanakirja, alunperin rakennettu japanin kieltä varten, mutta kattaa nykyään myös muitakin kieliä. 
+
+Asennus: 
+
+- Lataa ja asenna Edge Canary 
+
+.
+. 
+. 
+.
+. 
