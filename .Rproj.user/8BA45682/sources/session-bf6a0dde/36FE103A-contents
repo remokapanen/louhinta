@@ -1,13 +1,24 @@
-Welcome! 
+# Louhinta
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+A comprehensive guide to sentence mining and language learning techniques.
 
-This template provides a skeleton file structure that you can edit to create your book. 
+## About
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
+This book teaches you how to effectively mine sentences from native materials (videos, books, etc.) and integrate them into your language learning workflow using tools like:
 
-Additional resources:
+- **Yomitan** - Browser extension for quick word lookups
+- **ASBPlayer** - Video player with subtitle mining capabilities  
+- **Anki** - Spaced repetition flashcard system
 
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
+## What you'll learn
 
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+- How to set up and configure Yomitan, ASBPlayer, and Anki
+- Workflow for mining sentences from both text and video content
+- Techniques for mining from visual novels and video games
+- Mobile mining strategies
+
+## Getting Started
+
+The book is built with **bookdown** and can be read online or downloaded as PDF/EPUB.
+
+For more information about bookdown: https://bookdown.org/yihui/bookdown/
