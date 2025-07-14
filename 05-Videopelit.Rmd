@@ -7,7 +7,7 @@ Erityisesti japanin opiskelussa ns.  visual novel -tyyppiset videopelit ovat ä�
 
 Ongelmana on kuitenkin se, että videopelien teksti ei ole suoraan tutkittavissa Yomitanilla (toimii vain browserissa) eikä asbplayer tunnista videopelejä videotiedostoina. Jos haluaakin louhia videopeleistä, tulee lataa taas muutama työkalu. 
 
-## Työkalujen lataaminen
+## Työkalujen lataaminen {#Tyokalujen-lataaminen}
 
 Ensimmäinen vaihe on hankkia texthooker, jonka avulla voidaan repiä näytöllä näkyvä teksti browseriin Yomitanin nähtäväksi. 
 

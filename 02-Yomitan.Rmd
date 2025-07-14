@@ -32,7 +32,7 @@ Jos opiskelet jotain muuta, Yomitan suosittelee sopivat sanakirjat.
 
 - Tämän jälkeen Configure installed and enabled dictionarys -> laita kyseinen sanakirja päälle. 
 
-## Ankiin yhdistäminen ja korttien säätäminen 
+## Ankiin yhdistäminen ja korttien säätäminen {#Ankiin-yhdistaminen-ja-korttien-saataminen}
 
 - Enable Anki integration (Ankin tulee olla päällä samaan aikaan)
 

@@ -2,3 +2,13 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
+rmd_files: [
+  "index.Rmd",
+  "01-Anki-ja-Ankiconnect.Rmd",
+  "02-Yomitan.Rmd", 
+  "03-ASBplayer.Rmd",
+  "04-Workflow.Rmd",
+  "05-Videopelit.Rmd",
+  "06-Kindle.Rmd",
+  "07-Mobiili.Rmd"
+]

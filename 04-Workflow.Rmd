@@ -1,14 +1,14 @@
-# Louhinta käytännössä
+# Louhinta käytännössä {#Louhinta-kaytannossa}
 
 Nyt setup alkaa olla valmista. Seuraavaksi käydään läpi, miten louhinta toimii oikeasti, eli käydän läpi workflow siinä yhteydessä, kun tapaat uuden sanan immersiossasi. 
 - Varmista ennen louhimisen aloittamista, että Anki on päällä ja Yomitan sekä asbplayer pystyvät puhumaan Ankin kanssa (katso ovatko lisäosat yhteydessä Ankiin Ankiconnectin kautta)
 
-## Louhinta pelkästä tekstistä
+## Louhinta pelkästä tekstistä {#Louhinta-pelkasta-tekstista}
 
 Louhinta pelkästä tekstistä, esim. joltain uutissivustolta tai sähköisestä kirjasta on todella helppoa. Vie hiiresi osoitin haluamasi sanan päälle, samalla kun painat näppäimistöstä shift-nappulaa pohjassa. 
 - Jos haluat viedä sanan Ankiin, päästä irti shiftistä ja paina isoa vihreää ympyrää -> sana (ja sen kontekstin muodostava lause) menee Ankiin
 
-## Louhinta videoperäisestä materiaalista 
+## Louhinta videoperäisestä materiaalista {#Louhinta-videoperaisesta-materiaalista}
 
 Louhinta videoista on myös todella helppoa, siihen sisältyy vain yksi lisäaskel verrattuna pelkkään tekstiin. ASBPlayerillä voit klipata katsomasi videon audiota ja ottaa kuvan siitä kohdasta videota, jolla louhimasi lause sanotaan. Tätä kautta muodostuu sanan suhteen vahvempi niin auditiivinen että visuaalinen muistijälki. 
 
@@ -27,7 +27,7 @@ Youtube-videoista louhiminen onnistuu käytännössä aina, sillä suurimmalle o
 
 Nyt sinulla pyörii louhittavissa olevat tekstit Youtube-videossa. 
 
-## Louhinta Netflixistä 
+## Louhinta Netflixistä {#Louhinta-netflixista}
 
 Mekanismi on täysin sama kuin Youtubessa, yleensä Netflixissä on vain paremmin tarjolla tekstityksiä
 - Avaa video, paina Ctrl+Shift+F (tai mikä sattuukaan olemaan shortcuttisi asbplayerin asetusten kohdassa Keyboard shortcuts -> Select subtitle tracks to load)

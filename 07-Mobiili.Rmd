@@ -1,4 +1,4 @@
-# Älypuhelin (Android) 
+# Älypuhelimet (Android) {#Mobiili}
 
 Louhinta on myös mahdollista Android-pohjaisilla mobiililaitteilla (varmaan löytyy metodi myös iOS:lle, tämä opas ei käsitä iPhoneilla louhintaa) 
 
