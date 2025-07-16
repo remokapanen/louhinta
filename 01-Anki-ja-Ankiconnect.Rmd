@@ -36,4 +36,4 @@ Click card-tarkoittaa sitä, että etupuolella näkyy oletuksena vain testattava
 
 - Korttityypin voi vaihtaa halutessaan. Tämä opas ei käsittele muiden korttityyppien käyttöä. 
 
-![Click card example](_main_files/Click_card.gif)
+![Click card -esimerkki](_main_files/Click_card.gif)

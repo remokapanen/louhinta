@@ -24,9 +24,9 @@ General -> Language
 
 - Backup -> Import dictionary collection
 
-- Aseta Configure installed and enabled dictionarys -kohdasta tämän jälkeen kaikki yllä olevat sanakirjat päälle 
+- Aseta Configure installed and enabled dictionarys -kohdasta tämän jälkeen kaikki juuri aikaisemmin ladatut sanakirjat päälle 
 
-
+![](_main_files/Dictionaryorder.PNG)
 
 Jos opiskelet jotain muuta, Yomitan suosittelee sopivat sanakirjat.
 
@@ -38,6 +38,10 @@ Jos opiskelet jotain muuta, Yomitan suosittelee sopivat sanakirjat.
 
 - Enable Anki integration (Ankin tulee olla päällä samaan aikaan)
 
+![](_main_files/Ankiconnecton.PNG)
+
 - Configure Anki flashcards -> Deck-kohtaan louhintaa varten luomasi pakan nimi
 
 - Maindefinition-kohtaan tärkein lataamasi sanakirja (Japanin opiskelijoille jo valmiiksi asetettu, muille kielille laita tähän kohtaan lataamasti sanakirjan nimi)
+
+![](_main_files/Configure.PNG)

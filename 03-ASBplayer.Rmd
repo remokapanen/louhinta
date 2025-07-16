@@ -9,6 +9,18 @@ ASBplayer on selainlisäosa, joka mahdollistaa sen, että pystyt klippaamaan aud
 
 Lataa asetukset täältä: <a href="_main_files/asbplayersettings.json" download="asbplayersettings.json">Download JSON</a>
 
-- Aseta Deck-kohtaan tietysti oman pakkasi nimi
+- Importoi asetukset menemällä Settings -> Misc -> Imprort settings
+
+- Aseta Anki-valikosta Deck-kohtaan tietysti oman pakkasi nimi
 
 - Muista yhdistää Ankiconnect (Anki pitää olla päällä)
+
+- Ylempää ladattujen asetusten tulisi näyttää tältä niiden importoinnin jälkeen
+
+![](_main_files/ASB.PNG)
+
+- Tarpeen mukaan voi säätää Mining-kohdasta Audio Padding jne. Nämä ovat toimineet minulla. 
+
+
+![](_main_files/Padding.PNG)
+
