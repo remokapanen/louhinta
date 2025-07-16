@@ -1,0 +1,437 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{book}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{booktabs}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Louhinta},
+  pdfauthor={Remo Kapanen},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Louhinta}
+\author{Remo Kapanen}
+\date{2025-07-16}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter*{Perustietoa}\label{perustietoa}
+\addcontentsline{toc}{chapter}{Perustietoa}
+
+Tämä on nopea opas \emph{sanojen/lauseiden louhinnan} aloittamiseen.
+
+Jos opiskelet mitä tahansa kieltä, on kyseiseen kieleen \emph{immersoituminen} yksi tehokkaimmista opiskelutekniikoista. Immersoitumisella tarkoitan natiivimateriaalien (esim. kirjallisuus, uutiset, youtube, tv-sarjat) kuluttaminen ja niiden kautta kyseisen kielen absorboimista. Suurin osa nuoremmista sukupolvista on todennäköisesti oppinut englannin kielen tällä tavalla.
+
+Sanojen/Lauseiden louhinta tarkoittaa sitä, että \emph{kerää itselleen aikaisemmin tuntemattomia sanoja immersoitumismateriaalista,} kuten videoista tai kirjoista, ja siirtää nämä sanat johonkin muistikorttisovellukseen (tässä oppaassa \emph{Ankiin}). Muistikortteja ja varsinkin Ankin aikavälitoistoa (SRS) hyödyntämällä voi huomattavasti tehostaa sanojen muistijälkeä.
+
+Suurin osa opiskelijoista alkaa louhimaan vasta saatuaan edes jonkinlaisen pohjan kieleen (esim. japanissa tehnyt Kaishi 1.5k-pakan ja edes vilkaissut kieliopin perusteita), mutta louhinnan voi käytännössä aloittaa missä tahansa vaiheessa opintoja.
+Suosittelen kuitenkin, että aloittaisit louhimisen vasta, kun immersiomateriaalisi alkaa olla edes jollain tasolla ymmärrettävää (kts. \href{https://youtu.be/NiTsduRreug?si=Udp5c-lxH75kVLqy}{Stephen Krashenin puhe komprehensiivisestä inputista}
+
+\begin{itemize}
+\tightlist
+\item
+  Kts. toinen \href{https://remokapanen.com/project/kielten-perusteet/}{oppaani}, joka käy läpi suositukseni japanin opiskelun aloittamisesta
+\end{itemize}
+
+\section*{Mitä tulet oppimaan}\label{mituxe4-tulet-oppimaan}
+\addcontentsline{toc}{section}{Mitä tulet oppimaan}
+
+\begin{itemize}
+\item
+  Yomitan: Miten asentaa ja käyttää
+\item
+  ASBplayer: Miten asentaa ja käyttää
+\item
+  Workflow lauseiden louhimiseen niin teksteistä kuin videoista
+\item
+  Miten louhia videopeleistä (erityisesti visuaalisista novelleista)
+\item
+  Miten louhia älypuhelimella
+\end{itemize}
+
+\subsection*{Edellytykset}\label{edellytykset}
+\addcontentsline{toc}{subsection}{Edellytykset}
+
+Toimiva tietokone (louhinta myös mahdollista mobiililaitteella, kts. )
+
+\chapter{Anki}\label{anki}
+
+Jos sinulla ei ole Ankia jo valmiiksi tai et osaa käyttää sitä, kts. toinen oppaani: \_\_\_\_
+
+\section{Ankiconnect}\label{ankiconnect}
+
+Lataa Ankiconnect add-on.
+
+\begin{itemize}
+\item
+  Ankissa Tools -\textgreater{} Add-ons -\textgreater{} Get add-ons -\textgreater{} liitä kenttään tämä koodi: 2055492159
+\item
+  Sammuta Anki ja laita se uudelleen päälle
+\end{itemize}
+
+\section{Lapis-korttipohja}\label{lapis-korttipohja}
+
+Lataa Lapis-korttipohja täältä:
+- \url{https://github.com/donkuri/lapis/releases}
+
+Importtaa korttipohja Ankiin
+- Import file -\textgreater{} valitse ladattu tiedosto
+
+\section{Pakka}\label{pakka}
+
+Tee pakka, johon haluat louhittujen korttien menevän.
+
+\begin{itemize}
+\tightlist
+\item
+  Ankissa Create Deck -\textgreater{} anna pakalle sopiva nimi (esim. Mining)
+\end{itemize}
+
+\section{Millaisia kortit ovat?}\label{millaisia-kortit-ovat}
+
+Lapis-korttipohjalla voi tehdä muutamia erilaisia korttityyppejä, mutta tämän oppaan default-asetuksilla tulet tekemään ns. Click card-tyyppisiä kortteja.
+
+Käytännössä muistikortin (flashcard) etupuolella on louhittu tavoitekielesi sana. Kääntöpuolella on se lause, josta louhimasi sana on peräisin sekä sanan käännös/käännöksiä sanakirjasi mukaisesti.
+
+Kääntöpuolella on usein myös (mutta ei aina) sanakirjan mukana tullut audioklippi, jossa sana äännetään oikein. Jos louhit kortin videosta, mukana voi myös olla screenshot ja audioklippi kyseisestä videosta.
+
+Click card-tarkoittaa sitä, että etupuolella näkyy oletuksena vain testattava sana, eikä sille ole tarjolla kontekstia. Jos sana kuitenkin on sellainen, että et muista sitä heti tai sen oikein tunnistaminen vaatii kontekstia (esim. sana, joka voi tarkoittaa useita eri asioita), voi sanaa klikata, jolloin paljastuu se lause, josta kyseinen sana on louhittu.
+
+\begin{itemize}
+\tightlist
+\item
+  Korttityypin voi vaihtaa halutessaan. Tämä opas ei käsittele muiden korttityyppien käyttöä.
+\end{itemize}
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Click card example}]{_main_files/Click_card.gif}}
+\caption{Click card example}
+\end{figure}
+
+\chapter{Yomitan}\label{yomitan}
+
+Yomitan on browser-lisäosa, joka mahdollistaa nopeasti sanojen merkityksen tarkistamisen ja niiden siirtämisen Ankiin.
+
+\section{Asennus}\label{asennus}
+
+Lataa Yomitan käyttämällesi browserille (Chrome ja Firefox sopivimmat)
+\url{https://yomitan.wiki/}
+
+\section{Asetukset}\label{asetukset}
+
+Lataa seuraava tiedosto: Download Yomitan Settings JSON
+
+\begin{itemize}
+\tightlist
+\item
+  Backup -\textgreater{} Import settings
+\item
+  Valitse Active profile -\textgreater{} japani, jos opiskelet japania; muussa tapauksessa valitse Muut
+\end{itemize}
+
+\section{Valitse opiskelemasi kieli}\label{valitse-opiskelemasi-kieli}
+
+General -\textgreater{} Language
+
+\section{Yomitanin sanakirjat}\label{yomitanin-sanakirjat}
+
+Jos opiskelet japania, lataa seuraava tiedosto: \url{https://mega.nz/file/CZphmChT\#UnCJbgXTxqoMfDeF6lhjdmtQCUQPAvqMS-Tc8vg6hew}
+
+\begin{itemize}
+\item
+  Backup -\textgreater{} Import dictionary collection
+\item
+  Aseta Configure installed and enabled dictionarys -kohdasta tämän jälkeen kaikki yllä olevat sanakirjat päälle
+\end{itemize}
+
+Jos opiskelet jotain muuta, Yomitan suosittelee sopivat sanakirjat.
+
+\begin{itemize}
+\item
+  Get recommended dictionarys -\textgreater{} lataa suositellut.
+\item
+  Tämän jälkeen Configure installed and enabled dictionarys -\textgreater{} laita kyseinen sanakirja päälle.
+\end{itemize}
+
+\section{Ankiin yhdistäminen ja korttien säätäminen}\label{Ankiin-yhdistaminen-ja-korttien-saataminen}
+
+\begin{itemize}
+\item
+  Enable Anki integration (Ankin tulee olla päällä samaan aikaan)
+\item
+  Configure Anki flashcards -\textgreater{} Deck-kohtaan louhintaa varten luomasi pakan nimi
+\item
+  Maindefinition-kohtaan tärkein lataamasi sanakirja (Japanin opiskelijoille jo valmiiksi asetettu, muille kielille laita tähän kohtaan lataamasti sanakirjan nimi)
+\end{itemize}
+
+\chapter{ASBPlayer}\label{asbplayer}
+
+ASBplayer on selainlisäosa, joka mahdollistaa sen, että pystyt klippaamaan audion ja kuvan katsomistasi videoista Yomitanilla louhimiisi Ankikortteihin.
+
+\begin{itemize}
+\tightlist
+\item
+  Lataa asbplayer Chromelle: \url{https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab}
+\item
+  Lataa asbplayer Firefoxille: \url{https://addons.mozilla.org/en-US/firefox/addon/asbplayer-learn-with-subs/}
+\end{itemize}
+
+\section{Asetukset}\label{asetukset-1}
+
+Lataa asetukset täältä: Download JSON
+
+\begin{itemize}
+\item
+  Aseta Deck-kohtaan tietysti oman pakkasi nimi
+\item
+  Muista yhdistää Ankiconnect (Anki pitää olla päällä)
+\end{itemize}
+
+\chapter{Louhinta käytännössä}\label{Louhinta-kaytannossa}
+
+Nyt setup alkaa olla valmista. Seuraavaksi käydään läpi, miten louhinta toimii oikeasti, eli käydän läpi workflow siinä yhteydessä, kun tapaat uuden sanan immersiossasi.
+- Varmista ennen louhimisen aloittamista, että Anki on päällä ja Yomitan sekä asbplayer pystyvät puhumaan Ankin kanssa (katso ovatko lisäosat yhteydessä Ankiin Ankiconnectin kautta)
+
+\section{Louhinta pelkästä tekstistä}\label{Louhinta-pelkasta-tekstista}
+
+Louhinta pelkästä tekstistä, esim. joltain uutissivustolta tai sähköisestä kirjasta on todella helppoa. Vie hiiresi osoitin haluamasi sanan päälle, samalla kun painat näppäimistöstä shift-nappulaa pohjassa.
+- Jos haluat viedä sanan Ankiin, päästä irti shiftistä ja paina isoa vihreää ympyrää -\textgreater{} sana (ja sen kontekstin muodostava lause) menee Ankiin
+
+\section{Louhinta videoperäisestä materiaalista}\label{Louhinta-videoperaisesta-materiaalista}
+
+Louhinta videoista on myös todella helppoa, siihen sisältyy vain yksi lisäaskel verrattuna pelkkään tekstiin. ASBPlayerillä voit klipata katsomasi videon audiota ja ottaa kuvan siitä kohdasta videota, jolla louhimasi lause sanotaan. Tätä kautta muodostuu sanan suhteen vahvempi niin auditiivinen että visuaalinen muistijälki.
+
+Louhinnan periaate videotoistajasta riippumatta on seuraava
+1. Säädä tarvittaessa tekstien ajoitus audiolle sopiviksi. Ctrl+Shift+nuolinäppäin oikealle/vasemmalle aikaistaa/myöhäistää tekstejä suhteessa puheeseen.
+2. Kun tapaat sanan, josta haluat kortin, niin louhi se ensimmäiseksi Yomitanilla normaaliksi tekstikortiksi.
+3. Paina Ctrl+Shift+U, jolla klippaat kyseisen kohdan audion sekä otat pienen screenshotin videosta juuri aikaisemmin tekemäästi korttiin.
+4. Jos tuntuu siltä, että asbplayer klippaa audin liian aikaisin/liian myöhään, niin audio paddingia voi säädellä asetuksista Kohdasta Mining -\textgreater{} Audio padding start / Audio padding end
+
+\section{Louhinta Youtubesta}\label{louhinta-youtubesta}
+
+Youtube-videoista louhiminen onnistuu käytännössä aina, sillä suurimmalle osalle videoista on mahdollista laittaa päälle vähintään autogeneroidut tekstit.
+- Avaa video, paina Ctrl+Shift+F (tai mikä sattuukaan olemaan shortcuttisi asbplayerin asetusten kohdassa Keyboard shortcuts -\textgreater{} Select subtitle tracks to load)
+- Valitse Subtitle track 1 -\textgreater{} Valitse haluamasi tekstitykset (aina ei ole tarjolla mitään); huom. hiirellä klikkailu ei aina toimi, nuolinäppäimiä joutuu ehkä käyttämään tässä valinnassa
+- Paina enter
+
+Nyt sinulla pyörii louhittavissa olevat tekstit Youtube-videossa.
+
+\section{Louhinta Netflixistä}\label{Louhinta-netflixista}
+
+Mekanismi on täysin sama kuin Youtubessa, yleensä Netflixissä on vain paremmin tarjolla tekstityksiä
+- Avaa video, paina Ctrl+Shift+F (tai mikä sattuukaan olemaan shortcuttisi asbplayerin asetusten kohdassa Keyboard shortcuts -\textgreater{} Select subtitle tracks to load)
+- Valitse Subtitle track 1 -\textgreater{} Valitse haluamasi tekstitykset; huom. hiirellä klikkailu ei aina toimi, nuolinäppäimiä joutuu ehkä käyttämään tässä valinnassa
+- Paina enter
+
+Harmillisesti kuitenkin useissa Netflix-sarjoissa tekstitys ei täysin käy yksi-yhteen puhuttujen sanojen kanssa (oletettavasti tekstitykset käännetty englanninkielisistä tekstityksistä takaisin alkuperäiskielelle)
+
+\section{Muilta sivustoilta louhinta}\label{muilta-sivustoilta-louhinta}
+
+Jos haluat katsoa sarjoja sivustoilta, joilla ei ole natiivisti tarjolla tekstityksiä, ne tulee hakea muualta.
+
+Japanin kielen opiskelijoiden yhteisö netissä on sen verran aktiivinen, että erityisesti animesarjojen suhteen on todella helppoa löytää täydellisiä tekstitystiedostoja.
+Jos katsot sarjoja niiltä sivustoilta, joissa englannikieliset tekstitykset eivät ole ns. ``burned in'' eli tekstitykset ovat mahdollista laittaa pois, niin pystyt asbplayerin kautta asentamaan omat japaninkieliset tekstitykset videoon.
+- Laillisista sivuistoista esim. Crunchyrollissa pystyy tehdä näin ja laittomista esim. aniwatchtv.to -sivustolla; on myös monia muita
+
+Jos haluat japaninkieliset tekstit näille sivustoille, niin hae katsomasi sarjasi nimi Jimaku -sivustolta: \url{https://jimaku.cc/}
+- Lataa katsomasi jakson tekstitystiedosto; filetyypillä ei niin paljoa väliä (ihs onko .srt vai .ass; itse olen ass-miehiä)
+- Vedä tiedosto videon päälle -\textgreater{} nyt sinulla on japaninkieliset tekstit animejaksollesi
+
+Tämä metodi tietysti toimii myö mille tahalle muullekin kielelle, jos satut löytämään sivuston, jossa tavoitekielesi sarjojen tekstejä on tarjolla ladattaviksi.
+
+\chapter{Videopelit (erityisesti visuaaliset novellit)}\label{videopelit-erityisesti-visuaaliset-novellit}
+
+Videopelit ovat yksi parhaimmista mediamuodoista, jota voi käyttää kielten opiskeluun. Jos löydät pausetettavissa olevan pelin, johon saa tekstitykset päälle, pystyt käytännössä louhimaan siitä samalla tavalla sanoja/lauseita kuin muistakin videomuodoista.
+
+Erityisesti japanin opiskelussa ns. visual novel -tyyppiset videopelit ovat äärimmäisen tehokas immersiomateriaali, sillä ne nimensä mukaan ovat käytännössä kuvitettuja kirjoja, jotka hyvin usein vielä ovat ääninäyteltyjä. Visual novelleja on myös tuhansittain tarjolla, joten ne eivät tule loppumaan nopeasti kesken. Myös korealaisia ja kiinalaisia visual novelleja on paljon, jos niiden opiskelu kiinnostaa. Muiden kielien opiskelu saaattaa videopelien kautta olla aika vaikeaa, sillä useimmiten ainoat ääniraidat tarjolla ovat pelistä riippuen vain englanniksi.
+
+Ongelmana on kuitenkin se, että videopelien teksti ei ole suoraan tutkittavissa Yomitanilla (toimii vain browserissa) eikä asbplayer tunnista videopelejä videotiedostoina. Jos haluaakin louhia videopeleistä, tulee lataa taas muutama työkalu.
+
+\section{Työkalujen lataaminen}\label{Tyokalujen-lataaminen}
+
+Ensimmäinen vaihe on hankkia texthooker, jonka avulla voidaan repiä näytöllä näkyvä teksti browseriin Yomitanin nähtäväksi.
+
+\begin{itemize}
+\item
+  Näitä on monia, mutta tässä oppaassa käsitellään Textractorin käyttö; lataa Textractor täältä:
+\item
+  Asenna Textractor; x86 toiminee suurimman osan kanssa, jos x86 ei toimi pelisi kanssa, kokeile x64-versiota
+\item
+  Asenna exSTATic ja TextractorSender: \url{https://github.com/KamWithK/exSTATic}; samalla sivulla myös opetusvideo näiden asentamisesta
+\item
+  Asenna ShareX, jos haluat pelistä revityn audion ja kuvan kortteihisi: getsharex.com
+\end{itemize}
+
+\section{Textractorin setup}\label{textractorin-setup}
+
+Extensions-kohdasta poista kaikki, paitsi Remove repeated characters, Copy to Clipboard ja Remove repeated phrases. Lisää myös Textractorsender (joko x86 tai x64 riippuen kumpaa textractoria käytät; yleensä x86 toimii paremmin) exSTATic-kohdan ohjeiden mukaan.
+
+\begin{itemize}
+\tightlist
+\item
+  Jos Extensions-kohta on tyhjä, lisää sinne ym. tarvittavat extensionit
+\end{itemize}
+
+\section{ShareX:n setup}\label{sharexn-setup}
+
+Lataa seuraavat asetukset ja asenna ne (Application settings -\textgreater{} Settings -\textgreater{} Import)
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://mega.nz/file/UnUjUDzC\#zlF_iuIdELDq4-rk4o20EYa4Be3qdc3y5Caay9Eumbg}
+\end{itemize}
+
+Seuraavaksi säädä asetuksista reitti Ankin collection.media -folderiin tiedostojesi mukaiseksi:
+
+\begin{itemize}
+\item
+  Jos et tiedä reittiä omaan medialokeroosi, löydät sen kirjoittamalla \%appdata\% Windowsin hakemistoon ja etsimässä Anki2-folderista käyttäjäsi ja sen alta collection.media -\textgreater{} kopioi reitti tänne ja liitä se kaikkien neljän shortcut-optionin alle ShareX:ssä.
+\item
+  Seuraavaksi mene Audio-shortcutin kohtaan, mene sen asetuksiin ja mene kohtaan Screen Recorder -\textgreater{} Screen recording options -\textgreater{} Install recorder devices
+\end{itemize}
+
+\section{Workflow}\label{workflow}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{-1}
+\item
+  Avaa Anki
+\item
+  Avaa Textractor (x86 toimii useimmiten)
+\item
+  Avaa ShareX
+\item
+  Avaa exSTATic:n pääsivu: \url{https://kamwithk.github.io/exSTATic/tracker.html}
+\item
+  Avaa pelisi (toimii parhaiten visual novelleiden kanssa)
+\item
+  Kiinnitä Textractor peliin: Attach to game -\textgreater{} valitse avattu peli (voit myös tallentaa hookin, jotta tulevaisuudessa hookaus on automaattinen kyseisen pelin kanssa)
+\item
+  Plärää muutama linja pelin tekstejä läpi ja etsi ylävalikosta se vaihtoehto, jossa löytyy juuri pelissä näkyneet tekstit (jos japania opiskellessa näkyy pelkkejä bokseja, right-clickaa bokseja ja vaihda niiden fontti Meiryo-fontiksi)
+\item
+  Tavatessassi tuntemattoman sanan, mene exSTATic:n pääsivulle, jonne Textratorin repimää tekstiä syötetään ja louhi sana Yomitanilla
+\item
+  Jos haluat ottaa kyseisestä kohdasta peliä kuvan korttiin, niin paina Shift+Alt+C, jolloin ShareX avaa snipping tool -tyyppisen kuvankaappaustyökalun -\textgreater{} rajaa haluamasi kuva tällä -\textgreater{} päivittää automaattisesti juuri tehdyn Anki-kortin
+\item
+  Jos haluat (ja se on mahdollista), niin paina Shift+Alt+A, jolloin ShareX alkaa tallentamaan ääntä Anki-korttiin. Soita juuri puhuttu repliikki uudestaan ja lopeta audion tallentaminen.
+\item
+  Korttisi on valmis
+\end{enumerate}
+
+Sanojen louhinta näillä työkaluilla on todella helppoa. Yleisiä ongelmakohtia kuitenkin ovat:
+
+\begin{itemize}
+\item
+  Huonot hookit Textractorin kautta, jolloin kerätyt lauseet ovat virheellisiä.
+\item
+  Pelit, joissa ei pysty palata taaksepäin, jolloin audiota ei saa soimaan uudestaan (ei pysty tallentamaan audioklippiä ankikorttiin); tällöin kortissa on vain Yomitan-sanakirjasi natiiviaudio + klippaamasi kuvankaappaus pelistä
+\end{itemize}
+
+\chapter{E-lukijat (Kindle)}\label{e-lukijat-kindle}
+
+Kirjojen lukeminen on mahtava keino kasvattaa omaa sanastoaan. Android-pohjaisille E-lukijoille pätee Älypuhelin (Android) -osiossa käsitelty setup.
+
+\section{Setup}\label{setup}
+
+Aiheesta löytyy todella hyvä \href{https://youtu.be/_WT2FukXNAg?si=GimlPz3MYkpzeB9_}{opetusvideo Refoldilta}.
+
+\chapter{Älypuhelimet (Android)}\label{Mobiili}
+
+Louhinta on myös mahdollista Android-pohjaisilla mobiililaitteilla (varmaan löytyy metodi myös iOS:lle, tämä opas ei käsitä iPhoneilla louhintaa)
+
+\section{Yomitan Android}\label{yomitan-android}
+
+Yomitan on ``word hover'' -sanakirja, alunperin rakennettu japanin kieltä varten, mutta kattaa nykyään myös muitakin kieliä.
+
+Asennus:
+
+\begin{itemize}
+\tightlist
+\item
+  Lataa ja asenna Edge Canary
+\end{itemize}
+
+.
+.
+.
+.
+.
+
+\bibliography{book.bib,packages.bib}
+
+\end{document}

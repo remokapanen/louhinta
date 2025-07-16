@@ -2,16 +2,12 @@
 
 Louhinta on myös mahdollista Android-pohjaisilla mobiililaitteilla (varmaan löytyy metodi myös iOS:lle, tämä opas ei käsitä iPhoneilla louhintaa) 
 
-## Yomitan Android 
+## AnkiconnectAndroid ja Yomitan Firefoxille
 
-Yomitan on "word hover" -sanakirja, alunperin rakennettu japanin kieltä varten, mutta kattaa nykyään myös muitakin kieliä. 
+Ankin lisäosat eivät toimi mobiililla, joten pitää ladata erillinen [sovellus](https://github.com/KamWithK/AnkiconnectAndroid), joka toimii samalla tavalla kuten Ankin sisäinen AnkiConnect-lisäosa. 
 
-Asennus: 
+- Seuraa githubin ohjeita
 
-- Lataa ja asenna Edge Canary 
+Koska Yomitan on browser-extension, sen toimiminen mobiililaitteilla on aina isompi kysymysmerkki kuin koneella. Yomitan kuitenkin toimii Firefoxin mobiilisovelluksessa, joten jos haluaa Android-puhelimella/Android-pohjaisella E-lukijalla louhia sanoja Yomitanilla, tulee käyttää Firefoxia. 
 
-.
-. 
-. 
-.
-. 
+- Tämänkin setup käydään läpi yllä olevassa githubissa

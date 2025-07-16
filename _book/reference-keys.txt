@@ -23,8 +23,6 @@ textractorin-setup
 sharexn-setup
 workflow
 e-lukijat-kindle
-kindlen-setup
-ankin-setput
-workflow-1
+setup-ja-workflow
 Mobiili
-yomitan-android
+ankiconnectandroid-ja-yomitan-firefoxille

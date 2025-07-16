@@ -20,11 +20,13 @@ General -> Language
 
 ## Yomitanin sanakirjat 
 
-Jos opiskelet japania, lataa seuraava tiedosto: https://mega.nz/file/CZphmChT#UnCJbgXTxqoMfDeF6lhjdmtQCUQPAvqMS-Tc8vg6hew
+**Jos opiskelet japania**, lataa seuraava [tiedosto](https://mega.nz/file/CZphmChT#UnCJbgXTxqoMfDeF6lhjdmtQCUQPAvqMS-Tc8vg6hew)  (vaihtoehtoisesti voi myös ladata suoraan Yomitanin ehdottamat sanakirjat kohdasta get recommended dictionarys)
 
 - Backup -> Import dictionary collection
 
 - Aseta Configure installed and enabled dictionarys -kohdasta tämän jälkeen kaikki yllä olevat sanakirjat päälle 
+
+
 
 Jos opiskelet jotain muuta, Yomitan suosittelee sopivat sanakirjat.
 

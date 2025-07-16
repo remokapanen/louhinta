@@ -1,27 +1,7 @@
 # E-lukijat (Kindle)
 
-Kirjojen lukeminen on mahtava keino kasvattaa omaa sanastoaan. Android-pohjaisille E-lukijoille todennäköisesti pätee Älypuhelin (Android) -osiossa käsitelty setup. Tässä kappaleessa käsitellään sanojen louhintaa Kindlellä. 
+Kirjojen lukeminen on mahtava keino kasvattaa omaa sanastoaan. Android-pohjaisille E-lukijoille pätee Älypuhelimet (Android) -osiossa käsitelty setup. 
 
-## Kindlen setup 
+## Setup ja workflow
 
-.
-.
-.
-.
-
-
-
-## Ankin setput 
-
-
-.
-.
-.
-. 
-
-## Workflow 
-
-.
-.
-.
-.
+Aiheesta löytyy todella hyvä [opetusvideo Refoldilta](https://youtu.be/_WT2FukXNAg?si=GimlPz3MYkpzeB9_).
