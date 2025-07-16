@@ -36,7 +36,9 @@ Suosittelen kuitenkin, että aloittaisit louhimisen vasta, kun immersiomateriaal
 
 - Miten louhia videopeleistä (erityisesti visuaalisista novelleista)
 
+- Miten louhia E-lukijoilla
+
 - Miten louhia älypuhelimella 
 
 ### Edellytykset {-}
-Toimiva tietokone (louhinta myös mahdollista mobiililaitteella, kts. )
+Toimiva tietokone käyttöjärjestelmästä riippumatta tai Android-pohjainen älylaite
