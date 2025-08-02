@@ -17,13 +17,15 @@ Ensimmäinen vaihe on hankkia texthooker, jonka avulla voidaan repiä näytöll�
 
 - Asenna exSTATic ja TextractorSender: https://github.com/KamWithK/exSTATic; samalla sivulla myös opetusvideo näiden asentamisesta 
 
-- Asenna ShareX, jos haluat pelistä revityn audion ja kuvan kortteihisi: getsharex.com 
+- Asenna ShareX, jos haluat pelistä revityn audion ja kuvan kortteihisi: https://getsharex.com/ 
 
 ## Textractorin setup 
 
-Extensions-kohdasta poista kaikki, paitsi Remove repeated characters, Copy to Clipboard ja Remove repeated phrases. Lisää myös Textractorsender (joko x86 tai x64 riippuen kumpaa textractoria käytät; yleensä x86 toimii paremmin) exSTATic-kohdan ohjeiden mukaan.
+Extensions-kohdasta poista kaikki paitsi Remove repeated characters, Copy to Clipboard ja Remove repeated phrases. Lisää myös Textractorsender (joko x86 tai x64 riippuen kumpaa textractoria käytät; yleensä x86 toimii paremmin) exSTATic-kohdan ohjeiden mukaan.
 
 - Jos Extensions-kohta on tyhjä, lisää sinne ym. tarvittavat extensionit
+
+![](_main_files/textractorextensions.PNG)
 
 ## ShareX:n setup 
 
@@ -33,9 +35,19 @@ Lataa seuraavat asetukset ja asenna ne (Application settings -> Settings -> Impo
 
 Seuraavaksi säädä asetuksista reitti Ankin collection.media -folderiin tiedostojesi mukaiseksi: 
 
-- Jos et tiedä reittiä omaan medialokeroosi, löydät sen kirjoittamalla %appdata% Windowsin hakemistoon ja etsimässä Anki2-folderista käyttäjäsi ja sen alta collection.media -> kopioi reitti tänne ja liitä se kaikkien neljän shortcut-optionin alle ShareX:ssä. 
+- Jos et tiedä reittiä omaan medialokeroosi, löydät sen kirjoittamalla %appdata% Windowsin hakemistoon ja etsimällä Anki2-folderista käyttäjäsi ja sen alta collection.media -> kopioi reitti tänne ja liitä se kaikkien neljän shortcut-optionin alle ShareX:ssä. 
 
-- Seuraavaksi mene Audio-shortcutin kohtaan, mene sen asetuksiin ja mene kohtaan Screen Recorder -> Screen recording options -> Install recorder devices 
+![](_main_files/sharexwheels.PNG)
+
+Kuvassa minun reittini collection.media folderiin on hieman sensuroitu, sinulla pitäisi lukea oma reittisi siinä
+
+![](_main_files/sharexsetup.PNG)
+
+
+Seuraavaksi mene Audio-shortcutin kohtaan, mene sen asetuksiin ja mene kohtaan Screen Recorder -> Screen recording options -> Install recorder devices 
+
+![](_main_files/sharexrecorder.PNG)
+
 
 ## Workflow 
 
@@ -61,6 +73,9 @@ Seuraavaksi säädä asetuksista reitti Ankin collection.media -folderiin tiedos
 
 10. Korttisi on valmis
 
+![Esimerkki workflowsta (Lucy -The Eternity She Wished For-)](_main_files/lucyworkflow.gif)
+
+--- 
 
 Sanojen louhinta näillä työkaluilla on todella helppoa. Yleisiä ongelmakohtia kuitenkin ovat:
 

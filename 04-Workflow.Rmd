@@ -1,35 +1,49 @@
 # Louhinta käytännössä {#Louhinta-kaytannossa}
 
 Nyt setup alkaa olla valmista. Seuraavaksi käydään läpi, miten louhinta toimii oikeasti, eli käydän läpi workflow siinä yhteydessä, kun tapaat uuden sanan immersiossasi. 
+
 - Varmista ennen louhimisen aloittamista, että Anki on päällä ja Yomitan sekä asbplayer pystyvät puhumaan Ankin kanssa (katso ovatko lisäosat yhteydessä Ankiin Ankiconnectin kautta)
+
+![](_main_files/connected.PNG)
 
 ## Louhinta pelkästä tekstistä {#Louhinta-pelkasta-tekstista}
 
 Louhinta pelkästä tekstistä, esim. joltain uutissivustolta tai sähköisestä kirjasta on todella helppoa. Vie hiiresi osoitin haluamasi sanan päälle, samalla kun painat näppäimistöstä shift-nappulaa pohjassa. 
+
 - Jos haluat viedä sanan Ankiin, päästä irti shiftistä ja paina isoa vihreää ympyrää -> sana (ja sen kontekstin muodostava lause) menee Ankiin
+
+![](_main_files/mushoku.gif)
 
 ## Louhinta videoperäisestä materiaalista {#Louhinta-videoperaisesta-materiaalista}
 
 Louhinta videoista on myös todella helppoa, siihen sisältyy vain yksi lisäaskel verrattuna pelkkään tekstiin. ASBPlayerillä voit klipata katsomasi videon audiota ja ottaa kuvan siitä kohdasta videota, jolla louhimasi lause sanotaan. Tätä kautta muodostuu sanan suhteen vahvempi niin auditiivinen että visuaalinen muistijälki. 
 
-Louhinnan periaate videotoistajasta riippumatta on seuraava
+Louhinnan periaate videotoistajasta riippumatta on seuraava:
+
 1. Säädä tarvittaessa tekstien ajoitus audiolle sopiviksi. Ctrl+Shift+nuolinäppäin oikealle/vasemmalle aikaistaa/myöhäistää tekstejä suhteessa puheeseen.
+
 2. Kun tapaat sanan, josta haluat kortin, niin louhi se ensimmäiseksi Yomitanilla normaaliksi tekstikortiksi. 
-3. Paina Ctrl+Shift+U, jolla klippaat kyseisen kohdan audion sekä otat pienen screenshotin videosta juuri aikaisemmin tekemäästi korttiin. 
-4. Jos tuntuu siltä, että asbplayer klippaa audin liian aikaisin/liian myöhään, niin audio paddingia voi säädellä asetuksista Kohdasta Mining -> Audio padding start / Audio padding end 
+
+3. Paina Ctrl+Shift+U (tai asettamasi shortcut), jolla klippaat kyseisen kohdan audion sekä otat pienen screenshotin videosta juuri aikaisemmin tekemääsi korttiin. 
+
+4. Jos tuntuu siltä, että asbplayer klippaa audion liian aikaisin/liian myöhään, niin "audio paddingia" voi säädellä asetuksista Kohdasta Mining -> Audio padding start / Audio padding end 
 
 ## Louhinta Youtubesta 
 
-Youtube-videoista louhiminen onnistuu käytännössä aina, sillä suurimmalle osalle videoista on mahdollista laittaa päälle vähintään autogeneroidut tekstit. 
+Youtube-videoista louhiminen onnistuu käytännössä aina, sillä suurimmalle osalle videoista on mahdollista laittaa päälle vähintään autogeneroidut tekstit. Näiden laatu kuitenkin riippuu todella paljon videon puheen selvyydestä.
+
 - Avaa video, paina Ctrl+Shift+F (tai mikä sattuukaan olemaan shortcuttisi asbplayerin asetusten kohdassa Keyboard shortcuts -> Select subtitle tracks to load)
-- Valitse Subtitle track 1 -> Valitse haluamasi tekstitykset (aina ei ole tarjolla mitään); huom. hiirellä klikkailu ei aina toimi, nuolinäppäimiä joutuu ehkä käyttämään tässä valinnassa
+- Valitse Subtitle track 1 -> Valitse haluamasi tekstitykset (aina ei ole tarjolla mitään); huom. hiirellä klikkailu ei aina toimi, nuolinäppäimiä joutuu ehkä käyttämään tässä valinnassa (videolla toimii hiirellä)
 - Paina enter 
 
 Nyt sinulla pyörii louhittavissa olevat tekstit Youtube-videossa. 
 
+![](_main_files/youtubelouhinta.gif)
+
 ## Louhinta Netflixistä {#Louhinta-netflixista}
 
 Mekanismi on täysin sama kuin Youtubessa, yleensä Netflixissä on vain paremmin tarjolla tekstityksiä
+
 - Avaa video, paina Ctrl+Shift+F (tai mikä sattuukaan olemaan shortcuttisi asbplayerin asetusten kohdassa Keyboard shortcuts -> Select subtitle tracks to load)
 - Valitse Subtitle track 1 -> Valitse haluamasi tekstitykset; huom. hiirellä klikkailu ei aina toimi, nuolinäppäimiä joutuu ehkä käyttämään tässä valinnassa
 - Paina enter 
@@ -42,10 +56,15 @@ Jos haluat katsoa sarjoja sivustoilta, joilla ei ole natiivisti tarjolla tekstit
 
 Japanin kielen opiskelijoiden yhteisö netissä on sen verran aktiivinen, että erityisesti animesarjojen suhteen on todella helppoa löytää täydellisiä tekstitystiedostoja. 
 Jos katsot sarjoja niiltä sivustoilta, joissa englannikieliset tekstitykset eivät ole ns. "burned in" eli tekstitykset ovat mahdollista laittaa pois, niin pystyt asbplayerin kautta asentamaan omat japaninkieliset tekstitykset videoon. 
+
 - Laillisista sivuistoista esim. Crunchyrollissa pystyy tehdä näin ja laittomista esim. aniwatchtv.to -sivustolla; on myös monia muita
 
-Jos haluat japaninkieliset tekstit näille sivustoille, niin hae katsomasi sarjasi nimi Jimaku -sivustolta: https://jimaku.cc/
+Jos haluat japaninkieliset tekstit jaksoihin, niin hae katsomasi sarjasi nimi Jimaku -sivustolta: https://jimaku.cc/
+
 - Lataa katsomasi jakson tekstitystiedosto; filetyypillä ei niin paljoa väliä (ihs onko .srt vai .ass; itse olen ass-miehiä)
-- Vedä tiedosto videon päälle -> nyt sinulla on japaninkieliset tekstit animejaksollesi 
+- Vedä tiedosto videon päälle -> nyt sinulla on japaninkieliset tekstit jaksollesi 
 
 Tämä metodi tietysti toimii myö mille tahalle muullekin kielelle, jos satut löytämään sivuston, jossa tavoitekielesi sarjojen tekstejä on tarjolla ladattaviksi. 
+
+![](_main_files/aniwatchlouhinta.gif)
+

@@ -1,6 +1,6 @@
 # Anki 
 
-Jos sinulla ei ole Ankia jo valmiiksi tai et osaa käyttää sitä, kts. toinen oppaani: ____
+Jos sinulla ei ole Ankia jo valmiiksi tai et osaa käyttää sitä, kts. [toinen oppaani](https://ankin-perusteet.netlify.app/)
 
 ## Ankiconnect 
 
