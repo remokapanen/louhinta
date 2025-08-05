@@ -1,6 +1,6 @@
 # Videopelit (erityisesti visuaaliset novellit)
 
-Videopelit ovat yksi parhaimmista mediamuodoista, jota voi käyttää kielten opiskeluun. Jos löydät pausetettavissa olevan pelin, johon saa tekstitykset päälle, pystyt käytännössä louhimaan siitä samalla tavalla sanoja/lauseita kuin muistakin videomuodoista.
+Videopelit ovat yksi parhaimmista mediamuodoista, jota voi käyttää kielten opiskeluun. Jos löydät pelin, johon saa tekstitykset päälle, pystyt käytännössä louhimaan siitä samalla tavalla sanoja/lauseita kuin muistakin videomuodoista.
 
 Erityisesti japanin opiskelussa ns.  visual novel -tyyppiset videopelit ovat äärimmäisen tehokas immersiomateriaali, sillä ne nimensä mukaan ovat käytännössä kuvitettuja kirjoja, jotka hyvin usein vielä ovat ääninäyteltyjä. Visual novelleja on myös tuhansittain tarjolla, joten ne eivät tule loppumaan nopeasti kesken. Myös korealaisia ja kiinalaisia visual novelleja on paljon, jos niiden opiskelu kiinnostaa. Muiden kielien opiskelu saaattaa videopelien kautta olla aika vaikeaa, sillä useimmiten ainoat ääniraidat tarjolla ovat pelistä riippuen vain englanniksi.
 
@@ -59,7 +59,7 @@ Seuraavaksi mene Audio-shortcutin kohtaan, mene sen asetuksiin ja mene kohtaan S
 
 3. Avaa exSTATic:n pääsivu: https://kamwithk.github.io/exSTATic/tracker.html
 
-4. Avaa pelisi (toimii parhaiten visual novelleiden kanssa) 
+4. Avaa pelisi (toimii parhaiten visual novellien kanssa) 
 
 5. Kiinnitä Textractor peliin: Attach to game -> valitse avattu peli (voit myös tallentaa hookin, jotta tulevaisuudessa hookaus on automaattinen kyseisen pelin kanssa)
 

@@ -24,15 +24,15 @@ General -> Language
 
 - Backup -> Import dictionary collection
 
-- Aseta Configure installed and enabled dictionarys -kohdasta tämän jälkeen kaikki juuri aikaisemmin ladatut sanakirjat päälle 
+- Aseta Configure installed and enabled dictionaries -kohdasta tämän jälkeen kaikki juuri aikaisemmin ladatut sanakirjat päälle 
 
 ![](_main_files/Dictionaryorder.PNG)
 
 Jos opiskelet jotain muuta, Yomitan suosittelee sopivat sanakirjat.
 
-- Get recommended dictionarys -> lataa suositellut.
+- Get recommended dictionaries -> lataa suositellut.
 
-- Tämän jälkeen Configure installed and enabled dictionarys -> laita kyseinen sanakirja päälle. 
+- Tämän jälkeen Configure installed and enabled dictionaries -> laita kyseinen sanakirja päälle. 
 
 ## Ankiin yhdistäminen ja korttien säätäminen {#Ankiin-yhdistaminen-ja-korttien-saataminen}
 

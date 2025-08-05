@@ -1,6 +1,6 @@
 # Louhinta käytännössä {#Louhinta-kaytannossa}
 
-Nyt setup alkaa olla valmista. Seuraavaksi käydään läpi, miten louhinta toimii oikeasti, eli käydän läpi workflow siinä yhteydessä, kun tapaat uuden sanan immersiossasi. 
+Nyt setup alkaa olla valmista. Seuraavaksi käydään läpi, miten louhinta toimii oikeasti, eli käydään läpi workflow siinä yhteydessä, kun tapaat uuden sanan immersiossasi. 
 
 - Varmista ennen louhimisen aloittamista, että Anki on päällä ja Yomitan sekä asbplayer pystyvät puhumaan Ankin kanssa (katso ovatko lisäosat yhteydessä Ankiin Ankiconnectin kautta)
 
@@ -64,7 +64,7 @@ Jos haluat japaninkieliset tekstit jaksoihin, niin hae katsomasi sarjasi nimi Ji
 - Lataa katsomasi jakson tekstitystiedosto; filetyypillä ei niin paljoa väliä (ihs onko .srt vai .ass; itse olen ass-miehiä)
 - Vedä tiedosto videon päälle -> nyt sinulla on japaninkieliset tekstit jaksollesi 
 
-Tämä metodi tietysti toimii myö mille tahalle muullekin kielelle, jos satut löytämään sivuston, jossa tavoitekielesi sarjojen tekstejä on tarjolla ladattaviksi. 
+Tämä metodi tietysti toimii myös mille tahalle muullekin kielelle, jos satut löytämään sivuston, jossa tavoitekielesi sarjojen tekstejä on tarjolla ladattaviksi. 
 
 ![](_main_files/aniwatchlouhinta.gif)
 
