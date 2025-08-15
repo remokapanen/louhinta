@@ -17,7 +17,7 @@ github-repo: remokapanen/louhinta
 
 Tämä on nopea opas *sanojen/lauseiden louhinnan* aloittamiseen. 
 
-Jos opiskelet mitä tahansa kieltä, on kyseiseen kieleen _immersoituminen_ yksi tehokkaimmista opiskelutekniikoista. Immersoitumisella tarkoitan natiivimateriaalien (esim. kirjallisuus, uutiset, youtube, tv-sarjat) kuluttaminen ja niiden kautta kyseisen kielen absorboimista. Suurin osa nuoremmista sukupolvista on todennäköisesti oppinut englannin kielen tällä tavalla. 
+Jos opiskelet mitä tahansa kieltä, on kyseiseen kieleen _immersoituminen_ yksi tehokkaimmista opiskelutekniikoista. Immersoitumisella tarkoitan natiivimateriaalien (esim. kirjallisuus, uutiset, youtube, tv-sarjat) kuluttamista ja niiden kautta kyseisen kielen absorboimista. Suurin osa nuoremmista sukupolvista on todennäköisesti oppinut englannin kielen tällä tavalla. 
 
 Sanojen/Lauseiden louhinta tarkoittaa sitä, että _kerää itselleen aikaisemmin tuntemattomia sanoja immersoitumismateriaalista,_ kuten videoista tai kirjoista, ja siirtää nämä sanat johonkin muistikorttisovellukseen (tässä oppaassa *Ankiin*). Muistikortteja ja varsinkin Ankin aikavälitoistoa (SRS) hyödyntämällä voi huomattavasti tehostaa sanojen muistijälkeä. 
 
